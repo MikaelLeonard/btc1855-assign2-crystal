@@ -39,7 +39,7 @@ if(answer < 0) {
 #' Convert number into a string so that we can separate the digits
 arm_number <- as.character(answer)
 
-#' Split the digits using strsplit() and convert to integers so we can do sum()
+#' Split the digits using strsplit() and convert to integers so we can do operations
 arm_digits <-  as.integer(strsplit(arm_number, "")[[1]])
 
 # Cube each individual digit
