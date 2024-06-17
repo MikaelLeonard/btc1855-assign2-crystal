@@ -11,7 +11,7 @@ answer <- as.numeric(answer)
 #' If NA, the input was not a number
 #' Stop the code if input is not a number so that it doesn't 
 #' continue to the next checks
-if(is.na(answer) == T){
+if(is.na(answer)){
   stop("Entry is not a number.")
 } 
 
