@@ -2,6 +2,7 @@
 # ASSIGNMENT TWO 
 # Version 2023.03.1+446
 
+# This is good!
 answer <- readline(prompt = "Please enter a three digit positive number: ")
 
 # readline() function converts all input as strings, must convert to numeric
