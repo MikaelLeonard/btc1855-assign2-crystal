@@ -72,3 +72,8 @@ if(sum_digits != answer){
 } else {
   print(paste(answer,"is an armstrong number! :)"))
 }
+
+## Final comment
+## MG: Your code is very clear, easy to understand, and flows really well, great
+##     job! One final suggestion is you could include comments on each line for
+##     the if conditions so that you can easily see what they will do!
