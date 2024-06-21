@@ -27,6 +27,15 @@ if(is.na(answer)){
   stop("Entry is not a number.")
 } 
 
+## MG: Having the next if condition to check the correctness of the input flows
+##     well with your previous if statement. I think its really smart to check 
+##     whether the answer is a the three digit number using the range and the or
+##     logical operator (||).
+
+## MG: One suggestion is that using the else if statement where answer < 100, 
+##     might make the first if(answer <0) seems redundant. Although, I understand
+##     that you are separating them to generate a clearer error output. But, you
+##     can consider combining them into one!
 
 #' If number passed last check, it will now check whether it is positive and three digits
 #' If it doesn't pass, the code will stop running and not continue to the next check
