@@ -40,6 +40,8 @@ if(is.na(answer)){
 #' If number passed last check, it will now check whether it is positive and three digits
 #' If it doesn't pass, the code will stop running and not continue to the next check
 if(answer < 0) {
+  ## MG: you could include a comment here stating like if the answer is negative, return
+  ##     an error message reporting it to the user 
   stop(paste(answer,"is not a positive number."))
 } else if(answer < 100 || answer > 999) {
   stop(paste(answer,"is not a three digit number."))
