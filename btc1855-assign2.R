@@ -47,11 +47,16 @@ if(answer < 0) {
   print("Entry is a valid number.")
 }
 
+## MG: The logic for your next four lines of codes makes sense and works great!
+##     There is another way you can get the arm_digits without using the double
+##     square brackets [[]] by using unlist() instead. I've included it below.
 #' If number passed last check, it will now check if it is an armstrong number
 #' Convert number into a string so that we can separate the digits
 arm_number <- as.character(answer)
 
 #' Split the digits using strsplit() and convert to integers so we can do operations
+## MG: Alternative approach:
+##     arm_digits <- as.integer(unlist(strsplit(arm_number, "")))
 arm_digits <-  as.integer(strsplit(arm_number, "")[[1]])
 
 # Cube each individual digit
