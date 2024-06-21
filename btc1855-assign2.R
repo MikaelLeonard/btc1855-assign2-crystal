@@ -2,7 +2,12 @@
 # ASSIGNMENT TWO 
 # Version 2023.03.1+446
 
-# This is good!
+## MG: I tried running the entire script with correct and incorrect examples 
+##     (non-numeric, non 3 digit, negative numbers), and your code always 
+##     return the appropriate responses, great job!
+
+## MG: Its nice that you include a space after the colon so entering the input
+##     seems seamless!
 answer <- readline(prompt = "Please enter a three digit positive number: ")
 
 # readline() function converts all input as strings, must convert to numeric
