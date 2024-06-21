@@ -65,6 +65,7 @@ arm_cubed <- arm_digits^3
 # Sum all the cubed digits together
 sum_digits <- sum(arm_cubed)
 
+## MG: Great use of the if and else statements here!
 # Check if entry is an armstrong number
 if(sum_digits != answer){
   print(paste(answer,"is not an armstrong number."))
