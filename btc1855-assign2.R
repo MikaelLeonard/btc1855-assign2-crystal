@@ -10,9 +10,15 @@
 ##     seems seamless!
 answer <- readline(prompt = "Please enter a three digit positive number: ")
 
+## MG: Great explanation of the readline() function!
 # readline() function converts all input as strings, must convert to numeric
 answer <- as.numeric(answer)
 
+
+## MG: I think using this initial loop is a brilliant idea so that the script
+##     doesn't continue if the user entered a non-numeric input! 
+## MG: Using the stop() function also makes the message in red, which sticks out
+##     and enables readability!
 #' Check if input is NA
 #' If NA, the input was not a number
 #' Stop the code if input is not a number so that it doesn't 
@@ -20,6 +26,7 @@ answer <- as.numeric(answer)
 if(is.na(answer)){
   stop("Entry is not a number.")
 } 
+
 
 #' If number passed last check, it will now check whether it is positive and three digits
 #' If it doesn't pass, the code will stop running and not continue to the next check
